@@ -1,0 +1,238 @@
+@font-face {
+	font-family: Naturel;
+	src: url('Naturel.ttf');
+}
+
+@font-face {
+	font-family: COMPANY;
+	src: url('COMPANY.ttf');
+}
+
+@font-face {
+	font-family: FOREST;
+	src: url('FOREST.ttf');
+}
+
+body {
+	background-image: url(camel.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} 
+
+#titledes {
+	display: flex;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	}
+
+#title {
+	font-family: Naturel;
+	color: silver;
+	box-shadow: 10px 5px 5px silver;
+}
+
+#description {
+	font-family: FOREST;
+	font-size: 2.5em;
+}
+
+#art {
+	display: flex;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	}
+
+#formulaire {
+	display: flex;
+	border-style: solid;
+	border-radius: 20px;
+	background-color: rgba(255, 255, 255, .4);
+	min-height: 710px;
+	width: 50%;
+	justify-content: center;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 1.9em;
+	margin-bottom: 2.9em;
+	padding-top: 5.5em;
+	box-shadow: 10px 5px 5px black;
+}
+
+
+
+
+#Ener {
+	padding-left: 0.5em;
+	font-family: Naturel;
+	font-weight: bold;
+}
+
+#Agri {
+	padding-left: 0.5em;
+	font-family: Naturel;
+	font-weight: bold;
+}
+
+#Was {
+	padding-left: 0.5em;
+	font-family: Naturel;
+	font-weight: bold;
+}
+
+div {
+	padding-top: 1em;
+	font-family: Naturel;
+	font-weight: bold;
+	display: flex;
+}
+
+#label {
+	display: flex;
+	padding-bottom: 2em;
+	font-family: Naturel;
+	font-weight: bold;
+}
+
+#fontlabel {
+	font-family: FOREST;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: block;
+  	margin: auto;
+  	text-align: center;
+  	width: 50%;
+}
+
+#fontlabel2 {
+	font-family: FOREST;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: block;
+  	margin: auto;
+  	text-align: center;
+  	width: 50%;
+}
+
+.label-check {
+	font-family: FOREST;
+	font-weight: bold;
+	font-size: 1.5em;
+	display: block;
+  	margin: auto;
+  	text-align: center;
+  	width: 50%;
+}
+
+#dropdown {
+	font-family: Naturel;
+	font-weight: bold;
+}
+
+textarea {
+	font-family: Naturel;
+	font-weight: bold;
+	display: block;
+  	margin: auto;
+}
+
+#name {
+	margin-right: 0.5em;
+	font-family: Naturel;
+	font-weight: bold;
+	width: 150px;
+}
+
+#email {
+	margin-right: 0.5em;
+	font-family: Naturel;
+	font-weight: bold;
+	width: 150px;
+}
+
+#number {
+	margin-left: 0.5em;
+	font-family: Naturel;
+	font-weight: bold;
+	width: 150px;
+}
+#submit {
+	display: block;
+ 	margin: auto;
+ 	border:0.3em solid silver;
+ 	background-color: grey;
+ 	width: 150px;
+ 	font-weight: bold;
+}
+
+
+#card {display: flex;
+		}
+		#card2 {display: flex;
+			justify-content: center;
+		}
+		#card3 {display: flex;
+			justify-content: flex-end;
+		}
+
+		#check1 {display: flex;
+		}
+		#check2 {display: flex;
+			justify-content: center;
+		}
+		#check3 {display: flex;
+			justify-content: flex-end;
+		}
+
+
+
+
+/*media queries*/
+
+@media  (min-width: 300px) and (max-width: 700px) {
+	#formulaire {flex-direction: column;
+		width: 250px;}
+	#label {flex-direction: column;
+		text-align: center;}
+	textarea {width: 190px;}
+	#name {align-self: center;}
+	#email {align-self: center;}
+	#number {align-self: center;
+	margin-right: 1em;
+	}
+	#dropdown {margin-right: auto;
+	margin-left: auto;}
+	#card {display: block;
+		}
+		#card2 {display: block;}
+		#card3 {display: block;}
+
+		#check1 {display: block;}
+		#check2 {display: block;}
+		#check3 {display: block;}
+}
+
+@media  (min-width: 701px) and (max-width: 1280px) {
+		#formulaire {width: 95%;}
+		#card {display: flex;
+		}
+		#card2 {display: flex;
+			justify-content: center;
+		}
+		#card3 {display: flex;
+			justify-content: flex-end;
+		}
+
+		#check1 {display: flex;
+		}
+		#check2 {display: flex;
+			justify-content: center;
+		}
+		#check3 {display: flex;
+			justify-content: flex-end;
+		}
+}

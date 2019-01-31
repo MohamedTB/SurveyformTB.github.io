@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang "fr">
+<head>
+	<meta charset="utf-8">
+	<title>Survey Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+<header id="titledes">	
+<h1 id="title">Global Warming Survey</h1>
+</header>
+
+<article id="art"><p id="description">We need your opinion</p></article>
+
+<section id="formulaire">
+<form id="survey-form">	
+
+<div id="label">	
+<label id="name-label">Name&nbsp;</label>
+<input type="text" name="name" id="name" placeholder="Indicate your Name" required></br></br>
+<label id="email-label">Email&nbsp;</label>
+<input type="email" name="email" id="email" placeholder="Indicate your Email" required></br></br>
+<label id="number-label">Age&nbsp;</label>
+<input type="number" name="number" id="number" placeholder="Indicate your Age" min="18" max="100"></br></br>
+</div>
+
+
+<label id="fontlabel">Do you take interest in global warming ?</label>
+<div><select id="dropdown">
+	<option>Please choose an option</option>
+	<option>Yes</option>
+    <option>No</option>
+</select></div>
+</br></br>
+
+
+<label id="fontlabel2">What is the most polluting gas ?</label>
+
+<div id="card">
+<input type="radio" name="radio" value="butter">
+<label>Carbon dioxide</label>
+</div>
+
+<div id="card2">
+<input type="radio" name="radio" value="drone">
+<label>Methane</label>
+</div>
+
+<div id="card3">
+<input type="radio" name="radio" value="who">
+<label>Nitrous oxide</label>
+</div></span>
+<br>
+
+<br><label class="label-check">Which industries and activities emit the most pollution ?</label>
+
+<div id="check1">
+<input type="checkbox" name="checkboxes" value="beginners">
+<label id="Ener">Energy industry</label>
+</div>
+
+<div id="check2">
+<input type="checkbox" name="checkboxes" value="intermediate">
+<label id="Agri">Agriculture</label>
+</div>
+
+<div id="check3">
+<input type="checkbox" name="checkboxes" value="expert">
+<label id="Was">Waste</label>
+</div>
+<br>
+
+<br><textarea name="comment" rows="3" cols="35" maxlength="2000" placeholder="Enter your comment here..."></textarea> <br>
+
+<br> <button id="submit" type="submit">Submit</button>
+</form>
+</section>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
